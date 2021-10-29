@@ -1,0 +1,33 @@
+.text-bold {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.border-shadow {
+  box-shadow: rgba(1, 3, 30, 0.2) 0px 7px 29px 0px;
+  border-radius: 25px;
+}
+.background-color {
+  background-color: rgb(232, 182, 255);
+  border-radius: 25px;
+}
+/* .image {
+  background-image: linear-gradient(
+      115deg,
+      rgb(212, 250, 250),
+      rgb(217, 255, 255)
+    ),
+    url();
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-size: cover;
+} */
+.authentication-icon {
+  font-size: 2.5rem;
+}
+.long-padding {
+  padding: 5% 10%;
+}

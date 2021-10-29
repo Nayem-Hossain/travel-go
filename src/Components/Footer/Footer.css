@@ -1,0 +1,16 @@
+footer{
+    /* background-color: #04283e; */
+    background-color: #262339;
+}
+.logo-size{
+    width: 20em;
+    height: 90%;
+}
+/* .underline{
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-underline-position:under;
+} */
+.icon-color a{
+    color: lightcyan;
+}

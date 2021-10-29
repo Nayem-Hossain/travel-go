@@ -1,0 +1,65 @@
+.caption h3 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.banner1 {
+  background: url(../../images/HomePageBanner/tourism-banner3.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner2 {
+  background: url(../../images/HomePageBanner/tourism-banner2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner3 {
+  background: url(../../images/HomePageBanner/tourism-banner1.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner4 {
+  background: url(../../images/HomePageBanner/tourism-banner4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/* custom button css */
+  .font-color5 {
+    color: #ff722c;
+    border-radius: 1px solid #ff722c;
+  }
+  .font-color5:hover {
+    color: white;
+    background: #ff722c;
+    border-radius: 30px;
+  }
+  
+  .btn-brdr {
+    color: white;
+    background: #ff722c;
+  }
+  .brdr {
+    border: 1px solid #ff722c;
+    border-radius: 30px;
+  }
+  /* custom text color */
+
+.text-orgarge {
+  color: #ff722c;
+}
+.text-size {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+
+.position{
+    position:relative;
+    bottom: 70px;
+}
