@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Container, Row } from "react-bootstrap";
+
+import Service from "../../Components/Service/Service";
+import UserReview from "../../Components/UserReview/UserReview";
+import WhyChooseUs from "../../Components/WhyChooseUs/WhyChooseUs";
 import "./Home.css";
 
 const Home = () => {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    fetch("https://frightful-chupacabra-19042.herokuapp.com/services")
+      .then((response) => response.json())
+      .then((data) => setServices(data));
+  });
+
   return (
-    <div>
+    <div className="mb-5">
       <section
         id="carouselExampleControls"
         className="carousel slide"
@@ -79,7 +91,6 @@ const Home = () => {
           <div className="px-5 py-5">
             <form className="row">
               <div className="col-md-4">
-                {/* <label for="inputCity" className="form-label"></label> */}
                 <input
                   type="text"
                   className="form-control py-2"
@@ -89,7 +100,6 @@ const Home = () => {
               </div>
 
               <div className="col-md-3">
-                {/* <label for="inputDate" className="form-label"></label> */}
                 <input
                   type="date"
                   className="form-control py-2"
@@ -98,7 +108,6 @@ const Home = () => {
               </div>
 
               <div className="col-md-3">
-                {/* <label for="inputCategory" className="form-label"></label> */}
                 <select id="inputCategory" className="form-select py-2">
                   <option selected>Travel Categories...</option>
                   <option value="city tour">city tour</option>
@@ -114,12 +123,48 @@ const Home = () => {
                   className="btn btn-dark form-control py-2"
                   type="submit"
                 >
-                  {" "}
                   <i class="fas fa-search-location me-3"></i>Find Now
                 </button>
               </div>
             </form>
           </div>
+        </div>
+      </section>
+
+      <section className="mb-5">
+        <div>
+          <div className="text-center">
+            <p className="text-warning">FEATURED TOURS</p>
+            <h1>Most Popular Tours</h1>
+          </div>
+          <Container>
+            <Row xs={1} sm={2} md={3} className="g-2">
+              {services.map((data) => (
+                <Service key={data._id} info={data}></Service>
+              ))}
+            </Row>
+          </Container>
+        </div>
+      </section>
+
+      <section className="extra-background mb-5">
+        <div className="container mb-5">
+          <h5 className="mt-5 text-orgarge text-center">Why You Choose Us?</h5>
+          <h1 className="text-center text-size mb-5">
+            Why Are You Travel With TravelGo !
+          </h1>
+          <WhyChooseUs></WhyChooseUs>
+        </div>
+      </section>
+
+      {/*user review section */}
+      <section>
+        <div className="container">
+          <h5 className="text-orgarge text-center">Reviews About Our Agency</h5>
+          <h3 className="text-center text-size">
+            What Our Traveller Says <br /> About Us
+          </h3>
+          <UserReview></UserReview>
         </div>
       </section>
     </div>

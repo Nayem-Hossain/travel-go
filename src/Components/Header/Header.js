@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import websitelogo from "../../images/website_logo.png";
-import { Container, Image, Nav, Navbar } from "react-bootstrap";
+import { Container, Dropdown, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import UseAuth from "../../Hooks/UseAuth";
 
@@ -32,6 +32,14 @@ const Header = () => {
               Home
             </NavLink>
 
+            <NavLink to="/dashboard" className="nav-link">
+              Dashboard
+            </NavLink>
+
+            <NavLink to="/myorders" className="nav-link">
+              My Orders
+            </NavLink>
+
             <NavLink to="/blog" className="nav-link">
               Tourist Blog
             </NavLink>
@@ -43,11 +51,13 @@ const Header = () => {
           <Nav>
             {user.email ? (
               <Nav className="d-flex align-items-center">
-                <NavLink to="/my-orders" className="nav-link">
-                  My Orders
-                </NavLink>
-                <NavLink to="/manage-all-orders" className="nav-link">
-                  Manage All Orders
+                <NavLink to="/login">
+                  <button
+                    onClick={logOut}
+                    className="btn btn-danger rounded-pill text-white fw-bold"
+                  >
+                    Logout
+                  </button>
                 </NavLink>
 
                 <Navbar.Text className="text-center">
@@ -58,15 +68,6 @@ const Header = () => {
                   />
                   <span className="fw-bold">{user.displayName}</span>
                 </Navbar.Text>
-
-                <NavLink to="/login">
-                  <button
-                    onClick={logOut}
-                    className="btn btn-danger rounded-pill text-white fw-bold"
-                  >
-                    Logout
-                  </button>
-                </NavLink>
               </Nav>
             ) : (
               <Nav>

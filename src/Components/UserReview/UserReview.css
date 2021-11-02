@@ -1,0 +1,28 @@
+.review-card {
+  padding: 30px 25px;
+  margin: 20px 10px;
+  text-align: center;
+  border-radius: 50px 50px 0 0;
+}
+.review {
+  height: 114px;
+  width: 114px;
+  border-radius: 50%;
+  border: 8px solid rgb(51, 48, 79);
+  margin: 0 auto;
+}
+
+.review-card p::before {
+  position: absolute;
+  content: "";
+  background: url(../../images/quote-rwview.svg);
+  left: 20px;
+  bottom: 56%;
+  height: 37px;
+  width: 37px;
+}
+.review-card h5 {
+  font-size: 20px;
+  font-weight: 500px;
+  color: #a5a5a5;
+}

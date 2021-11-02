@@ -9,35 +9,59 @@ import PageNotFound404 from "./WebPages/PageNotFound404/PageNotFound404";
 import Footer from "./Components/Footer/Footer";
 import About from "./WebPages/AboutUsPage/About";
 import "./App.css";
+import DashBoard from "./WebPages/DashBoardPage/DashBoard";
+import MyOrders from "./WebPages/MyOrdersPage/MyOrders";
+import Blog from "./WebPages/BlogPage/Blog";
+import Booking from "./WebPages/BookingPage/Booking";
 
 function App() {
   return (
     <BrowserRouter>
       <ProvideAuth>
         <Header></Header>
+
         <Switch>
           <Route exact path="/">
             <Home></Home>
           </Route>
+
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/registration">
-            <Registration></Registration>
+          
+          <PrivateRoute path="/dashboard">
+            <DashBoard></DashBoard>
+          </PrivateRoute>
+
+          <PrivateRoute path="/viewDetails/:serviceId">
+            <Booking></Booking>
+          </PrivateRoute>
+
+          <PrivateRoute path="/myorders">
+            <MyOrders></MyOrders>
+          </PrivateRoute>
+
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-          <PrivateRoute path="/my-orders"></PrivateRoute>
-          <PrivateRoute path="/manage-all-orders"></PrivateRoute>
-          <Route path="/blog"></Route>
+
           <Route path="/about">
             <About></About>
           </Route>
+
+          <Route path="/registration">
+            <Registration></Registration>
+          </Route>
+
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+
           <Route path="*">
             <PageNotFound404></PageNotFound404>
           </Route>
         </Switch>
+
         <Footer></Footer>
       </ProvideAuth>
     </BrowserRouter>

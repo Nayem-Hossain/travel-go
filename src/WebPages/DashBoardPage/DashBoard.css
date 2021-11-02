@@ -1,0 +1,14 @@
+.backgrond {
+  background-color: rgb(135, 99, 255);
+}
+.margin-top {
+  margin-top: 100px;
+}
+.link {
+  border-bottom: 5px solid lightblue;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.link:hover {
+  background-color: lightpink;
+}

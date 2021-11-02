@@ -9,7 +9,7 @@ import discoverCard from "../../images/paymentGatWay/payment-discover-card.png";
 
 const Footer = () => {
   return (
-    <footer className="mt-5 text-white">
+    <footer className="text-white">
       <div className="row mx-5 py-5">
         <div className="col-lg-4 m-2">
           <div className="d-flex align-items-center mb-3">

@@ -6,6 +6,6 @@ import firebaseConfig from "./Firebase.Config";
 //initialize firebase
 const InitializeFirebase = () => {
   initializeApp(firebaseConfig);
-  // const analytics = getAnalytics(initializeApp(firebaseConfig));
+  const analytics = getAnalytics(initializeApp(firebaseConfig));
 };
 export default InitializeFirebase;

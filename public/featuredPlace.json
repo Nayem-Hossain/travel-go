@@ -1,0 +1,112 @@
+[
+  {
+    "img": "https://i.ibb.co/Vg4DqYN/Featured-Place-1.png",
+    "country": "Italy",
+    "packageName": "Mount Etna, Italy",
+    "price": 120,
+    "totalReviews": 774,
+    "rating": 4.6,
+    "day": 5,
+    "night": 6,
+    "description": "Mount Etna, or Etna, is an active stratovolcano on the east coast of Sicily, Italy, in the Metropolitan City of Catania, between the cities of Messina and Catania. It lies above the convergent plate margin between the African Plate and the Eurasian Plate."
+  },
+  {
+    "img": "https://i.ibb.co/cTgqP9Z/Featured-Place-2.jpg",
+    "country": "Russia",
+    "packageName": "Mount Road, Russia",
+    "price": 220,
+    "totalReviews": 374,
+    "rating": 4.2,
+    "day": 5,
+    "night": 6,
+    "description": "Mount Etna, or Etna, is an active stratovolcano on the east coast of Sicily, Italy, in the Metropolitan City of Catania, between the cities of Messina and Catania. It lies above the convergent plate margin between the African Plate and the Eurasian Plate."
+  },
+  {
+    "img": "https://i.ibb.co/HKp9nfC/Featured-Place-3.jpg",
+    "country": "Italy",
+    "packageName": "Amalfi Costa, Italy",
+    "price": 122,
+    "totalReviews": 444,
+    "rating": 3.9,
+    "day": 5,
+    "night": 6,
+    "description": "The Amalfi Coast is a 50-kilometer stretch of coastline along the southern edge of Italy’s Sorrentine Peninsula, in the Campania region. It’s a popular holiday destination, with sheer cliffs and a rugged shoreline dotted with small beaches and pastel-colored fishing villages. The coastal road between the port city of Salerno and clifftop Sorrento winds past grand villas, terraced vineyards and cliffside lemon groves"
+  },
+  {
+    "img": "https://i.ibb.co/s9c2m77/Featured-Place-4.png",
+    "country": "France",
+    "packageName": "French Rivira, France",
+    "price": 150,
+    "totalReviews": 973,
+    "rating": 4.3,
+    "day": 5,
+    "night": 6,
+    "description": "The French Riviera (or Côte d'Azur) is the Mediterranean coast of southeastern France. It includes famously glamorous beach resorts such as Saint-Tropez and Cannes, and the independent microstate of Monaco. A health retreat in the 18th century, the area later attracted aristocrats, artists and the 1960s jet set. Today it’s an established holiday destination, with paths connecting many coastal villages and towns."
+  },
+  {
+    "img": "https://i.ibb.co/FngM7vS/Featured-Place-5.jpg",
+    "country": "Bangladesh",
+    "packageName": "Saint Martin, Bangladesh",
+    "price": 120,
+    "totalReviews": 534,
+    "rating": 4.0,
+    "day": 5,
+    "night": 6,
+    "description": "St. Martin's Island is a small island in the northeastern part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. There is a small adjoining island that is separated at high tide, called Chera Dwip."
+  },
+  {
+    "img": "https://i.ibb.co/PFB632Y/Featured-Place-6.jpg",
+    "country": "United States of America",
+    "packageName": "Miami Beach",
+    "price": 120,
+    "totalReviews": 774,
+    "rating": 4.7,
+    "day": 5,
+    "night": 6,
+    "description": "Miami Beach is a south Florida island city, connected by bridges to mainland Miami. Wide beaches stretch from North Shore Open Space Park, past palm-lined Lummus Park to South Pointe Park. The southern end, South Beach, is known for its international cachet with models and celebrities, and its early-20th-century architecture in the Art Deco Historic district with pastel-colored buildings, especially on Ocean Drive."
+  },
+  {
+    "img": "https://i.ibb.co/mCzQN16/Featured-Place-7.jpg",
+    "country": "Thailand",
+    "packageName": "Mount Sea, Thailand",
+    "price": 120,
+    "totalReviews": 774,
+    "rating": 4.8,
+    "day": 5,
+    "night": 6,
+    "description": "Mount sea is an active stratovolcano on the east coast of Sicily, Italy, in the Metropolitan City of Catania, between the cities of Messina and Catania. It lies above the convergent plate margin between the African Plate and the Eurasian Plate."
+  },
+  {
+    "img": "https://i.ibb.co/PmSB3XT/Featured-Place-8.jpg",
+    "country": "Vietnam",
+    "packageName": "Discover Depth of Beach",
+    "price": 120,
+    "totalReviews": 774,
+    "rating": 4.2,
+    "day": 5,
+    "night": 6,
+    "description": "Mount Etna, or Etna, is an active stratovolcano on the east coast of Sicily, Italy, in the Metropolitan City of Catania, between the cities of Messina and Catania. It lies above the convergent plate margin between the African Plate and the Eurasian Plate."
+  },
+  {
+    "img": "https://i.ibb.co/FhBY96V/Featured-Place-9.png",
+    "country": "France",
+    "packageName": "Lake Geneva, France",
+    "price": 120,
+    "totalReviews": 774,
+    "rating": 4.1,
+    "day": 5,
+    "night": 6,
+    "description": "Lake Geneva (or Lac Léman) is a crescent-shaped lake shared between France and Switzerland, and overlooked by the Alps. Geneva, the Swiss city at its southern tip, is a diplomatic hub with luxury shops and a cobbled old town. On the southern, French side, is the spa town and resort of Évian-les-Bains. The chic, palm-studded Swiss Riviera stretches along the north shore from Lausanne to Montreux."
+  },
+  {
+    "img": "https://i.ibb.co/KFc4vWW/Featured-Place-10.jpg",
+    "country": "Vietnam",
+    "packageName": "Hạ Long Bay",
+    "price": 120,
+    "totalReviews": 774,
+    "rating": 4.5,
+    "day": 5,
+    "night": 6,
+    "description": "Hạ Long Bay, in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests. Junk boat tours and sea kayak expeditions take visitors past islands named for their shapes, including Stone Dog and Teapot islets. The region is popular for scuba diving, rock climbing and hiking, particularly in mountainous Cát Bà National Park"
+  }
+]

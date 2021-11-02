@@ -12,7 +12,7 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import InitializeFirebase from "../Components/FirebaseAuthentication/InitializeFirebase";
-// import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 InitializeFirebase();
 const UseFirebase = () => {
@@ -78,12 +78,11 @@ const UseFirebase = () => {
         setError("");
         verifyEmail();
         setUserName();
-        /* swal({
-          title: "Your Registration is Complete!",
-          text: "we have sent a link in your email. please verify your email now",
-          icon: "success",
-          button: "OK",
-        }); */
+        Swal.fire(
+          "Your Registration is Complete!",
+          "we have sent a link in your email. please verify your email now",
+          "success"
+        );
         history.push(redirect_url);
         logOut();
       })
@@ -108,7 +107,12 @@ const UseFirebase = () => {
       .then((result) => {
         const user = result.user;
         if (!user.emailVerified) {
-          /*  swal({
+          Swal.fire(
+            "Your Email is not Verifyed Yet!",
+            "please verify your email first.",
+            "success"
+          );
+         /*  swal({
             title: "Your Email is not Verifyed Yet!",
             text: "please verify your email first.",
             icon: "success",
