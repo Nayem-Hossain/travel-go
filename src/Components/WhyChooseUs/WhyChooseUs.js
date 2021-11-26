@@ -7,7 +7,6 @@ const WhyChooseUs = () => {
       <div className="row align-items-center ">
         <div className="g-5">
           <div className="d-flex flex-column flex-lg-row g-5 content pb-5">
-
             <div className="col-lg-3 col-12 d-flex justify-content-center">
               <div className="text-center ">
                 <i class="fas fa-user icon"></i>
@@ -20,9 +19,7 @@ const WhyChooseUs = () => {
               <div className="text-center ">
                 <i class="far fa-handshake icon"></i>
                 <h1 className="text-followers fcolor">100%</h1>
-                <h4 className="text-style fcolor">
-                  Trusted Travel Agency
-                </h4>
+                <h4 className="text-style fcolor">Trusted Travel Agency</h4>
               </div>
             </div>
 
@@ -30,9 +27,7 @@ const WhyChooseUs = () => {
               <div className="text-center">
                 <i class="far fa-smile-beam icon"></i>
                 <h1 className="text-followers fcolor">99%</h1>
-                <h4 className="text-style fcolor">
-                  Of Our Traveller Happy
-                </h4>
+                <h4 className="text-style fcolor">Of Our Traveller Happy</h4>
               </div>
             </div>
 
@@ -45,7 +40,6 @@ const WhyChooseUs = () => {
                 </h4>
               </div>
             </div>
-
           </div>
         </div>
       </div>

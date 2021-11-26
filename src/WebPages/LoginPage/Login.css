@@ -8,6 +8,7 @@
 }
 .background-color {
   background-color: rgb(232, 182, 255);
+  background-color: lightcoral;
   border-radius: 25px;
 }
 /* .image {

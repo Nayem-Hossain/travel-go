@@ -8,16 +8,17 @@ import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import PageNotFound404 from "./WebPages/PageNotFound404/PageNotFound404";
 import Footer from "./Components/Footer/Footer";
 import About from "./WebPages/AboutUsPage/About";
-import "./App.css";
 import DashBoard from "./WebPages/DashBoardPage/DashBoard";
 import MyOrders from "./WebPages/MyOrdersPage/MyOrders";
 import Blog from "./WebPages/BlogPage/Blog";
 import Booking from "./WebPages/BookingPage/Booking";
+import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
       <ProvideAuth>
+
         <Header></Header>
 
         <Switch>

@@ -3,7 +3,7 @@ import { Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import UseAuth from "../../Hooks/UseAuth";
 import UseFirebase from "../../Hooks/UseFirebase";
-import travelGo from "../../images/website_logo.png"
+import travelGo from "../../images/website_logo.png";
 import "./Login.css";
 
 const Login = () => {
@@ -64,7 +64,7 @@ const Login = () => {
               Login
             </Button>
             <p className="text-center pt-3 m-0">
-              dont have an account? <Link to="/register">register</Link>
+              dont have an account? <Link to="/registration">registration</Link>
             </p>
           </Form>
         </div>
@@ -77,7 +77,7 @@ const Login = () => {
         </div>
       </div>
     </div>
-  );
+   );
 };
 
 export default Login;
