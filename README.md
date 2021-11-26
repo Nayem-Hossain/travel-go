@@ -1,6 +1,6 @@
 # Website
 
-https://travel-go-nayem.netlify.app/
+https://travel-go-nayem.netlify.app
 
 ## Short Description
 
