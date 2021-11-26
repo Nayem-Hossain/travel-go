@@ -13,4 +13,4 @@ Its a React website for providing tourism services. It also responsive for mobil
 - (Any one can contact ours)
 - (Google Firebase authentication for secure users account)
 - (user can creat an account with his gmail)
-- (Mobile-Friendly)
+- (Mobile-responsive)
